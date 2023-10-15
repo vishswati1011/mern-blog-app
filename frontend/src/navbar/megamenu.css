@@ -1,0 +1,114 @@
+.top-mega-menu{
+  width: 100%;
+  height: 80px;
+ }
+.topnav{
+    width: 100%;
+    display: flex;
+    background-color: rgb(235, 231, 231);
+    color: black;
+    justify-content: space-around;
+    margin-top:0px;
+    height: 50px;
+  }
+  .menu {
+    display: flex;
+    margin: 0 50px;
+    padding: 0;
+    font-family: sans-serif;  
+    color:black
+  }
+  .menu li {
+    list-style: none; 
+    font-size: 12px; 
+  }
+  .menu li a {
+    padding: 1em;  
+    display: block;
+    color: black;
+    text-decoration: none;  
+  }
+  .menu li a.menu-active {
+    padding: 1em;  
+    display: block;
+    color: rgb(3, 162, 236);
+    text-decoration: none;  
+  }
+  .menu li a:hover {
+    color: #336699;
+  }
+  
+  .mega-menu {
+    display: flex;    
+    justify-content: space-around;
+    position: absolute;
+    opacity: 0;  
+    visibility: hidden;
+    /* align-items: flex-end; */
+  }
+
+  .mega-position-big{
+    left: 10%;
+    right: 10%;
+  }
+ 
+  .menu li:hover > .mega-menu {
+    opacity: 1;
+    overflow: visible;
+    visibility: visible;
+  }
+  
+  .col-width{
+    width: 200px;
+    
+  }
+  
+  .mega-menu .col-width {
+    padding: 1em;
+  }
+  .mega-menu .col-width ul {
+    margin: 0;
+    padding: 0;
+  }
+  .mega-menu .col-width li {
+   margin-bottom: 0.75em;
+  }
+  .mega-menu .col-width h4 {
+    text-transform: uppercase; 
+    margin: 0 0 1em 0;
+  }
+  .mega-menu .col-width a {
+    padding: 0;
+  }
+  .mega-menu .col-width img {
+    display: block;
+  }
+  .mega-menu .col-width p {
+    margin-bottom: 0;
+  }
+  .mega-menu .col-width strong {
+    text-transform: uppercase; 
+  }
+
+  .mega-div{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .mega-sub-box{
+    width: 250px;
+    padding: 10px;
+  }
+  .mega-sub-box p{
+    color: #015289;
+  }
+  .dropdown-item{
+    padding: 5px 0;
+    font-size: 12px;
+    color: black;
+  }
+ 
+  .box{
+    background: #eee; 
+    display:flex;
+    flex-wrap: wrap;
+  }

@@ -1,0 +1,40 @@
+.footer{
+    color: #777;
+    /* margin-top:50px */
+    bottom: 0;
+}
+.footer_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_col{
+    padding-top: 10px;
+    width: 200px;
+}
+.footer_heading{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: black;
+}
+.div_hr_line{
+    border-bottom: 2px solid black;
+    width: 25px;
+    color: black;
+}
+.footer_list{
+    list-style-type: none;
+    color: black;
+    font-size: 12px;
+    padding: 2px;
+}
+
+
+@media only screen and (max-width:768px) and (min-width:300px) {
+    
+    .footer_col{
+        padding-top: 10px;
+        width: 150px;
+    }
+}
