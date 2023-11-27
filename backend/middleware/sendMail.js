@@ -4,8 +4,10 @@ const transporter = require('./nodemailer')
 const sendOtpMail = async(email,otp) =>{
     const username = email.split('@');
     const mailOptions = {
-        from: 'testingp642@gmail.com',
-        to: email,
+        // from: 'testingp642@gmail.com',
+        // to: email,
+        from: "appsdeployer1011@gmail.com",
+        to: 'v.nisha0116@gmail.com',
         subject: `Verification code`,
         html: `
         <p>Hi ${username[0]},</p>
